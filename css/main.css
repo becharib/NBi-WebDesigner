@@ -555,6 +555,9 @@ top: -8px;
   text-transform: uppercase;
 }
 
+.titresectionchiffres{
+    color: #FFFFFF !important;
+}
 
 /*=========================================
 	Contact Us
@@ -728,4 +731,8 @@ label.error {
   position: fixed;
   right: 25px;
   z-index: 9;
+}
+
+.back-top{
+    display: none;
 }

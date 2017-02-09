@@ -125,13 +125,13 @@ Home Slider
         <div class="carousel-inner" role="listbox">
 
             <!-- 1ere Slide -->
-            <div class="item active" style="background-image: url(img/fond.jpeg);">
+            <div class="item active" style="background-image: url(img/fond6.jpeg);">
                 <div class="carousel-caption">
                     <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Brandi</span>!</h2>
                     <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
                     <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
 
-                    <ul class="social-links text-center">
+                    <ul class="social-links text-center wow bounceInUp animated">
                         <li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
                         <li><a href=""><i class="fa fa-viadeo fa-lg"></i></a></li>
                         <li><a href=""><i class="fa fa-github fa-lg"></i></a></li>
@@ -147,7 +147,7 @@ Home Slider
                     <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
                     <p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
 
-                    <ul class="social-links text-center">
+                    <ul class="social-links text-center wow bounceInUp animated">
                         <li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
                         <li><a href=""><i class="fa fa-viadeo fa-lg"></i></a></li>
                         <li><a href=""><i class="fa fa-github fa-lg"></i></a></li>
@@ -157,13 +157,13 @@ Home Slider
             <!-- Fin 2e Slide -->
 
             <!-- 3e Slide -->
-            <div class="item" style="background-image: url(img/fond4.jpg);">
+            <div class="item" style="background-image: url(img/fond7.jpg);">
                 <div class="carousel-caption">
                     <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2>
                     <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
                     <p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
 
-                    <ul class="social-links text-center">
+                    <ul class="social-links text-center wow bounceInUp animated">
                         <li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
                         <li><a href=""><i class="fa fa-viadeo fa-lg"></i></a></li>
                         <li><a href=""><i class="fa fa-github fa-lg"></i></a></li>
@@ -192,7 +192,7 @@ Features
 
             <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
                 <h2>Prestations</h2>
-                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                <div class="devider"><i class="fa fa-star-o fa-lg"></i></div>
             </div>
 
             <!-- service item -->
@@ -257,12 +257,12 @@ Our Works
     <div class="container">
         <div class="row">
 
-            <div class="sec-title text-center">
+            <div class="sec-title text-center wow bounceIn animated">
                 <h2>Works</h2>
-                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                <div class="devider"><i class="fa fa-star-o fa-lg"></i></div>
             </div>
 
-            <div class="sec-sub-title text-center">
+            <div class="sec-sub-title text-center wow bounceInLeft animated">
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
             </div>
 
@@ -279,7 +279,7 @@ Our Works
         </div>
     </div>
 
-    <div class="project-wrapper">
+    <div class="project-wrapper wow zoomIn animated">
 
         <figure class="mix work-item branding">
             <img src="img/works/item-1.jpg" alt="">
@@ -372,7 +372,7 @@ Meet Our Team
 
             <div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
                 <h2>Meet Our Team</h2>
-                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                <div class="devider"><i class="fa fa-star-o fa-lg"></i></div>
             </div>
 
             <div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
@@ -380,7 +380,7 @@ Meet Our Team
             </div>
 
             <!-- single member -->
-            <figure class="team-member col-md-6 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <figure class="team-member col-md-6 col-sm-6 col-xs-12 text-center wow zoomIn animated">
                 <div class="member-thumb is-centered">
                     <img src="img/team/member-1.png" alt="Team Member" class="img-responsive">
                     <figcaption class="overlay">
@@ -399,7 +399,7 @@ Meet Our Team
             <!-- end single member -->
 
             <!-- single member -->
-            <figure class="team-member col-md-6 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+            <figure class="team-member col-md-6 col-sm-6 col-xs-12 text-center wow zoomIn animated">
                 <div class="member-thumb is-centered">
                     <img src="img/team/member-2.png" alt="Team Member" class="img-responsive">
                     <figcaption class="overlay">
@@ -408,7 +408,7 @@ Meet Our Team
                         <ul class="social-links text-center">
                             <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
                             <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+                            <li><a href=""><i class="fa fa-viadeo fa-lg"></i></a></li>
                         </ul>
                     </figcaption>
                 </div>
@@ -435,8 +435,8 @@ Some fun facts
             <div class="row number-counters">
 
                 <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-                    <h2>Some Fun Facts</h2>
-                    <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                    <h2 class="titresectionchiffres">Some Fun Facts</h2>
+                    <div class="devider"><i class="fa fa-star-o fa-lg"></i></div>
                 </div>
 
                 <!-- first count item -->
@@ -494,7 +494,7 @@ Contact Us
 
             <div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
                 <h2>Let’s Discuss</h2>
-                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                <div class="devider"><i class="fa fa-star-o fa-lg"></i></div>
             </div>
 
             <div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
@@ -618,7 +618,7 @@ End Contact Us
     </div>
 </footer>
 
-<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+<a href="javascript:void(0);" id="back-top" class="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
 
 <!-- Essential jQuery Plugins
 ================================================== -->

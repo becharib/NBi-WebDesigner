@@ -46,7 +46,6 @@ $(document).ready(function(){
             $("#navigation").css("background-color","rgba(255, 255, 255, 0.8)");
             $("#logo-navbar").attr("src","img/logobleu.png");
             $("#navbar-accueil").css("color","#0083FF");
-            $("#navbar-accueil").css("border-top","1px solid #0083FF");
             $("#navbar-prestations").css("color","#0083FF");
             $("#navbar-realisations").css("color","#0083FF");
             $("#navbar-equipe").css("color","#0083FF");
