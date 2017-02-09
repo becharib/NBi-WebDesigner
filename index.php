@@ -17,13 +17,15 @@
     <!-- Forcer dernière version de IE ou fenêtre Chrome -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Titre de page -->
-    <title>NB - Communication</title>
+    <title>NBi - Communication</title>
     <!-- Description -->
     <meta name="description" content="Blue One Page Creative HTML5 Template">
     <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
-    <meta name="author" content="Muhammad Morshed">
+    <meta name="author" content="Bilal Bechari, Nicolas Jourdan">
     <!-- Spécif. Mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Couleur onglet Chrome mobile -->
+    <meta name="theme-color" content="#0083FF">
 
     <!-- Google Font -->
 
@@ -34,6 +36,7 @@
     ================================================== -->
     <!-- Fontawesome Icon font -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Fancybox  -->
@@ -44,6 +47,7 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- Media-queries -->
     <link rel="stylesheet" href="css/media-queries.css">
+
 
     <!-- Modernizer Script pour anciens navigateurs -->
     <script src="js/modernizr-2.6.2.min.js"></script>
@@ -67,14 +71,14 @@ Navbar Fixe
             <!-- Bouton Nav responsive -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
-                <i class="fa fa-bars fa-2x"></i>
+                <i id="bouton-navbar-mobile" class="fa fa-bars fa-2x"></i>
             </button>
             <!-- Fin Bouton Nav responsive -->
 
             <!-- Logo -->
             <a class="navbar-brand" href="#body">
                 <h1 id="logo">
-                    <img src="img/logo.png" alt="NB - Communication">
+                    <img id="logo-navbar" class="padding-left-top" src="img/logobleu.png" alt="NBi - Communication">
                 </h1>
             </a>
             <!-- Fin Logo -->
@@ -83,13 +87,13 @@ Navbar Fixe
         <!-- Nav -->
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
             <ul id="nav" class="nav navbar-nav">
-                <li class="current"><a href="#body">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#works">Work</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="http://google.com">Contact</a></li>
-                <li><a href="#team">Se connecter</a></li>
-                <li><a href="#team">S'inscrire</a></li>
+                <li class="current"><a class="a-navbar" href="#body" id="navbar-accueil">Accueil</a></li>
+                <li><a class="a-navbar" href="#prestations" id="navbar-prestations">Prestations</a></li>
+                <li><a class="a-navbar" href="#works" id="navbar-realisations">Réalisations</a></li>
+                <li><a class="a-navbar" href="#equipe" id="navbar-equipe">Équipe</a></li>
+                <li><a class="a-navbar" href="#contact" id="navbar-contact">Contact</a></li>
+                <li><a class="a-navbar" href="#connecter" id="navbar-seconnecter">Se connecter</a></li>
+                <li><a class="a-navbar" href="#inscrire" id="navbar-sinscrire">S'inscrire</a></li>
             </ul>
         </nav>
         <!-- Fin Nav -->
@@ -109,15 +113,15 @@ Home Slider
 <section id="slider">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-        <!-- Indicators bullet -->
+        <!-- Nb Slides -->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         </ol>
-        <!-- End Indicators bullet -->
+        <!-- Fin Nb Slides -->
 
-        <!-- Wrapper for slides -->
+        <!-- Wrapper Slides -->
         <div class="carousel-inner" role="listbox">
 
             <!-- 1ere Slide -->
@@ -128,10 +132,9 @@ Home Slider
                     <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
 
                     <ul class="social-links text-center">
-                        <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa fa-viadeo fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa fa-github fa-lg"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -145,10 +148,9 @@ Home Slider
                     <p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
 
                     <ul class="social-links text-center">
-                        <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa fa-viadeo fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa fa-github fa-lg"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -162,17 +164,16 @@ Home Slider
                     <p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
 
                     <ul class="social-links text-center">
-                        <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa fa-viadeo fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa fa-github fa-lg"></i></a></li>
                     </ul>
                 </div>
             </div>
             <!-- Fin 3e Slide -->
 
         </div>
-        <!-- End Wrapper for slides -->
+        <!-- Fin Wrapper Slides -->
 
     </div>
 </section>
@@ -185,12 +186,12 @@ End Home SliderEnd
 Features
 ==================================== -->
 
-<section id="features" class="features">
+<section id="prestations" class="features">
     <div class="container">
         <div class="row">
 
             <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-                <h2>Features</h2>
+                <h2>Prestations</h2>
                 <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
 
@@ -379,16 +380,16 @@ Meet Our Team
             </div>
 
             <!-- single member -->
-            <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-                <div class="member-thumb">
+            <figure class="team-member col-md-6 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+                <div class="member-thumb is-centered">
                     <img src="img/team/member-1.png" alt="Team Member" class="img-responsive">
                     <figcaption class="overlay">
                         <h5>voluptatem quia voluptas </h5>
                         <p>sit aspernatur aut odit aut fugit,</p>
                         <ul class="social-links text-center">
-                            <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
+                            <li><a href=""><i class="fa fa-github fa-lg"></i></a></li>
+                            <li><a href=""><i class="fa fa-viadeo fa-lg"></i></a></li>
                         </ul>
                     </figcaption>
                 </div>
@@ -398,8 +399,8 @@ Meet Our Team
             <!-- end single member -->
 
             <!-- single member -->
-            <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                <div class="member-thumb">
+            <figure class="team-member col-md-6 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                <div class="member-thumb is-centered">
                     <img src="img/team/member-2.png" alt="Team Member" class="img-responsive">
                     <figcaption class="overlay">
                         <h5>voluptatem quia voluptas </h5>
@@ -413,44 +414,6 @@ Meet Our Team
                 </div>
                 <h4>Martin Matrone</h4>
                 <span>Lead Developer</span>
-            </figure>
-            <!-- end single member -->
-
-            <!-- single member -->
-            <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                <div class="member-thumb">
-                    <img src="img/team/member-3.png" alt="Team Member" class="img-responsive">
-                    <figcaption class="overlay">
-                        <h5>voluptatem quia voluptas </h5>
-                        <p>sit aspernatur aut odit aut fugit,</p>
-                        <ul class="social-links text-center">
-                            <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        </ul>
-                    </figcaption>
-                </div>
-                <h4>Steve Flaulkin</h4>
-                <span>Sr. UI Designer</span>
-            </figure>
-            <!-- end single member -->
-
-            <!-- single member -->
-            <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                <div class="member-thumb">
-                    <img src="img/team/member-1.png" alt="Team Member" class="img-responsive">
-                    <figcaption class="overlay">
-                        <h5>voluptatem quia voluptas </h5>
-                        <p>sit aspernatur aut odit aut fugit,</p>
-                        <ul class="social-links text-center">
-                            <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        </ul>
-                    </figcaption>
-                </div>
-                <h4>John Filmr Doe</h4>
-                <span>Managing Director</span>
             </figure>
             <!-- end single member -->
 
@@ -646,9 +609,9 @@ End Contact Us
 
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 wow bounceInUp animated">
                 <p class="copyright text-center">
-                    Copyright © 2015 <a href="http://themefisher.com/">Themefisher</a>. All rights reserved. Designed & developed by <a href="http://themefisher.com/">Themefisher</a>
+                    Copyright © 2017 NBi - Communication. Tous droits réservés. Conçu et developpé par Bilal Bechari et Nicolas Jourdan.
                 </p>
             </div>
         </div>

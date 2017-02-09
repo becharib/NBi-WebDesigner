@@ -18,23 +18,42 @@ $(document).ready(function(){
 	jQuery('#nav').singlePageNav({
 		offset: jQuery('#nav').outerHeight(),
 		filter: ':not(.external)',
-		speed: 1200,
+		speed: 1500,
 		currentClass: 'current',
 		easing: 'easeInOutExpo',
 		updateHash: true,
 		beforeStart: function() {
-			console.log('begin scrolling');
+			/*console.log('begin scrolling');*/
 		},
 		onComplete: function() {
-			console.log('done scrolling');
+			/*console.log('done scrolling');*/
 		}
 	});
 	
     $(window).scroll(function () {
-        if ($(window).scrollTop() > 400) {
-            $("#navigation").css("background-color","#0EB493");
+        if ($(window).scrollTop() > 681) {
+            $("#navigation").css("background-color","#0083FF");
+            $("#logo-navbar").attr("src","img/logoblanc.png");
+            $("#navbar-accueil").css("color","#FFFFFF");
+            $("#navbar-prestations").css("color","#FFFFFF");
+            $("#navbar-realisations").css("color","#FFFFFF");
+            $("#navbar-equipe").css("color","#FFFFFF");
+            $("#navbar-contact").css("color","#FFFFFF");
+            $("#navbar-seconnecter").css("color","#FFFFFF");
+            $("#navbar-sinscrire").css("color","#FFFFFF");
+            $("#bouton-navbar-mobile").css("color", "#FFFFFF");
         } else {
-            $("#navigation").css("background-color","rgba(16, 22, 54, 0.2)");
+            $("#navigation").css("background-color","rgba(255, 255, 255, 0.8)");
+            $("#logo-navbar").attr("src","img/logobleu.png");
+            $("#navbar-accueil").css("color","#0083FF");
+            $("#navbar-accueil").css("border-top","1px solid #0083FF");
+            $("#navbar-prestations").css("color","#0083FF");
+            $("#navbar-realisations").css("color","#0083FF");
+            $("#navbar-equipe").css("color","#0083FF");
+            $("#navbar-contact").css("color","#0083FF");
+            $("#navbar-seconnecter").css("color","#0083FF");
+            $("#navbar-sinscrire").css("color","#0083FF");
+            $("#bouton-navbar-mobile").css("color", "#0083FF");
         }
     });
 	

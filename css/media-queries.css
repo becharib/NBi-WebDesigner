@@ -122,6 +122,11 @@ background-position: center top !important;
   font-size: 14px;
 }
 
+.padding-left-top{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
 /* slider */
 .carousel-caption h2 {
   font-size: 35px;
