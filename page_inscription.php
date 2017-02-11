@@ -31,7 +31,7 @@
 <?php include 'include/navbar.php'; ?>
 
 <div class="cont">
-    <div class="demo">
+    <div class="demo wow zoomIn animated">
         <div class="login">
             <div class="logo-nbi">
                 <img src="img/logo-page-ins.png">
