@@ -1,3 +1,11 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Bilal
+ * Date: 11/02/2017
+ * Time: 18:12
+ */
+?>
 <!--
 Navbar Fixe
 ==================================== -->
@@ -23,13 +31,13 @@ Navbar Fixe
         <!-- Nav -->
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
             <ul id="nav" class="nav navbar-nav">
-                <li class="current"><a class="a-navbar" href="#body" id="navbar-accueil">Accueil</a></li>
-                <li><a class="a-navbar" href="#prestations" id="navbar-prestations">Prestations</a></li>
-                <li><a class="a-navbar" href="#works" id="navbar-realisations">Réalisations</a></li>
-                <li><a class="a-navbar" href="#equipe" id="navbar-equipe">Équipe</a></li>
-                <li><a class="a-navbar" href="#contact" id="navbar-contact">Contact</a></li>
-                <li><a class="a-navbar" href="page_connexion.php" onclick="javascript:document.location.href='page_connexion.php'" id="navbar-seconnecter">Se connecter</a></li>
-                <li><a class="a-navbar" href="page_inscription.php" onclick="javascript:document.location.href='page_inscription.php'" id="navbar-sinscrire">S'inscrire</a></li>
+                <li class="current"><a class="a-navbar" href="index.php" id="navbar-accueil">Accueil</a></li>
+                <li><a class="a-navbar" href="index.php#prestations" id="navbar-prestations">Prestations</a></li>
+                <li><a class="a-navbar" href="index.php#works" id="navbar-realisations">Réalisations</a></li>
+                <li><a class="a-navbar" href="index.php#equipe" id="navbar-equipe">Équipe</a></li>
+                <li><a class="a-navbar" href="index.php#contact" id="navbar-contact">Contact</a></li>
+                <li><a class="a-navbar" href="page_connexion.php" id="navbar-seconnecter">Se connecter</a></li>
+                <li><a class="a-navbar" href="page_inscription.php" id="navbar-sinscrire">S'inscrire</a></li>
             </ul>
         </nav>
         <!-- Fin Nav -->
@@ -39,3 +47,4 @@ Navbar Fixe
 <!--
 Fin Navbar Fixe
 ==================================== -->
+

@@ -28,7 +28,7 @@
 
 <body>
 <!-- Navbar -->
-<?php include 'include/navbar.php'; ?>
+<?php include 'include/navbar_page_autre_que_index.php'; ?>
 
 <div class="cont">
     <div class="demo wow zoomIn animated">
