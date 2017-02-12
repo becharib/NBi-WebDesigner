@@ -20,7 +20,7 @@ Navbar Fixe
             <!-- Fin Bouton Nav responsive -->
 
             <!-- Logo -->
-            <a class="navbar-brand" href="#body">
+            <a class="navbar-brand wow bounceInLeft animated" href="index.php">
                 <h1 id="logo">
                     <img id="logo-navbar" class="padding-left-top" src="img/logobleu.png" alt="NBi - Communication">
                 </h1>
@@ -29,7 +29,7 @@ Navbar Fixe
         </div>
 
         <!-- Nav -->
-        <nav class="collapse navbar-collapse navbar-right" role="navigation">
+        <nav class="collapse navbar-collapse navbar-right wow fadeInRightBig animated" role="navigation">
             <ul id="nav" class="nav navbar-nav">
                 <li class="current"><a class="a-navbar" href="index.php" id="navbar-accueil">Accueil</a></li>
                 <li><a class="a-navbar" href="index.php#prestations" id="navbar-prestations">Prestations</a></li>

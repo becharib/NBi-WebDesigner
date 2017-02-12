@@ -33,7 +33,7 @@
 <!-- Fin Chargement -->
 
 <!-- Navbar -->
-<?php include 'include/navbar.php'; ?>
+<?php include 'include/navbar_index.php'; ?>
 
 <!--
 Home Slider
