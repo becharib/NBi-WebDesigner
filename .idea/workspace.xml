@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page_inscription.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page_inscription.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page_inscription.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.55593807">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,20 +45,20 @@
       <file leaf-file-name="page_connexion.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_connexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.538462">
-              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+            <state vertical-scroll-proportion="-9.923077">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="false" />
-                <marker date="1486908203955" expanded="true" signature="1295:1557" placeholder="..." />
+                <marker date="1486908784323" expanded="true" signature="1356:1618" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="envoi_inscription_php.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="envoi_inscription_php.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/envoi_inscription_php.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21480145">
+            <state vertical-scroll-proportion="-2.2452831">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
@@ -94,11 +94,11 @@
         <option value="$PROJECT_DIR$/include/navbar.php" />
         <option value="$PROJECT_DIR$/include/navbar_page_autre_que_index.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/page_inscription.php" />
         <option value="$PROJECT_DIR$/css/page_inscription.css" />
-        <option value="$PROJECT_DIR$/page_connexion.php" />
         <option value="$PROJECT_DIR$/php/connexion_php.php" />
         <option value="$PROJECT_DIR$/php/envoi_inscription_php.php" />
+        <option value="$PROJECT_DIR$/page_connexion.php" />
+        <option value="$PROJECT_DIR$/page_inscription.php" />
       </list>
     </option>
   </component>
@@ -638,14 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_inscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/connexion_php.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -654,21 +646,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/envoi_inscription_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2452831">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page_connexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.538462">
-          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        <state vertical-scroll-proportion="-9.923077">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="false" />
-            <marker date="1486908203955" expanded="true" signature="1295:1557" placeholder="..." />
+            <marker date="1486908784323" expanded="true" signature="1356:1618" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/envoi_inscription_php.php">
+    <entry file="file://$PROJECT_DIR$/page_inscription.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21480145">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.55593807">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>

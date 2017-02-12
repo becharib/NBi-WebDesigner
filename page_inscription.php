@@ -32,6 +32,8 @@ include './app/bootstrap.inc.php';
 <!-- Navbar -->
 
 <?php include "php/envoi_inscription_php.php";?>
+<?php include 'include/navbar_page_autre_que_index.php'; ?>
+
 
 <div class="cont">
     <div class="demo wow zoomIn animated">
@@ -66,7 +68,7 @@ include './app/bootstrap.inc.php';
                         <input type="password" class="login__input pass" name="confirmInscri" value="<?php echo @$_POST['confirmInscri']; ?>" placeholder="Confirmation mot de passe" required/>
                     </div>
                     <button type="submit" name="envoyerInscription" class="login__submit">Créer un compte</button>
-                    <p class="login__signup">Vous avez déjà un compte ? &nbsp;<a href="page_connexion.php">Connectez-vous</a></p>
+                    <p class="login__signu">Vous avez déjà un compte ? &nbsp;<a href="page_connexion.php">Connectez-vous</a></p>
                 </div>
             </form>
         </div>

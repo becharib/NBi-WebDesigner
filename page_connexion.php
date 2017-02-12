@@ -31,9 +31,9 @@ include './app/bootstrap.inc.php';
 <body>
 <!-- Navbar -->
 
-<?php
-include 'php/connexion_php.php';
-?>
+<?php include 'php/connexion_php.php'; ?>
+<?php include 'include/navbar_page_autre_que_index.php'; ?>
+
 <div class="cont">
     <div class="demo wow zoomIn animated">
         <div class="login">
