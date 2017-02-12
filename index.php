@@ -531,8 +531,8 @@ End Contact Us
                  data-wow-delay="300ms">
                 <div class="footer-single">
                     <h6>Subscribe </h6>
-                    <form action="#" class="subscribe">
-                        <input type="text" name="subscribe" id="subscribe">
+                    <form action="page_inscription.php" method="POST" class="subscribe">
+                        <input type="text" name="subscribe_nbi" id="subscribe">
                         <input type="submit" value="&#8594;" id="subs">
                     </form>
                     <p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>

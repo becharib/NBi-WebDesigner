@@ -67,4 +67,6 @@ if(isset($_POST['envoyerInscription']))
   }
 
 }
+//Variable temporaire en attendant le panel
+echo $param['message_information'];
 ?>

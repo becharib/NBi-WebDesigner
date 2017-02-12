@@ -6,32 +6,21 @@ $messageInsci = isset($_GET['inscri'])?"Vous êtes inscrit, un mail vous a été
 //Si il y a eu un clique sur le bouton de connexion
 $param['login'] = isset($_POST['login'])?trim($_POST['login']):"";
 $param['mdp'] = isset($_POST['mdp'])?trim($_POST['mdp']):"";
-$param['erreur'] = false;
 $param['message'] = "";
 
+// Si on appuie sur le bouton déconnexion lorsque l'on est connecté
 if(isset($_GET['deconnexion']))
 {
   unset($_SESSION['login']);
 }
 
-if(isset($_POST['inscription']))
-{
-  header("Location: formulaire.php");
-  exit(0);
-}
-
-if(isset($_POST['forgot']))
-{
-  header("Location: motdepasseoublie.php");
-  exit(0);
-}
-
+//Si on appuie sur le bouton connexion
 if (isset($_POST['connexion']))
 { // On a cliqué sur le bouton
+  //Un des deux champs est vide (au cas où le required ne marche pas
   if (empty($param['login']) || empty($param['mdp']))
   {
     /* TODO METTRE PANEL ERROR */
-     $param['erreur'] = true;
      $param['message'] = "Merci de saisir un login et un mot de passe...\n";
   }
   else
@@ -41,7 +30,6 @@ if (isset($_POST['connexion']))
      if (!$user)
      {
        /* TODO METTRE PANEL ERROR */
-        $param['erreur'] = true;
         $param['message'] = "Erreur d'authentification (".$param['login'].").";
      }
      else
@@ -60,4 +48,7 @@ if (isset($_POST['connexion']))
      }
   }
 }
+
+//Variable temporaire en attendant le panel
+echo $param['message'];
 ?>
